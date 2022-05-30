@@ -1,0 +1,12 @@
+Python program to find the power of a number using recursion
+if P == 0:  # base condition
+        return 1
+   
+      # recurence relation
+    return (N*power(N, P-1)) 
+ 
+# Driver program
+N = 5
+P = 0
+ 
+print(power(N, P))
